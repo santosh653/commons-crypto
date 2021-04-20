@@ -20,7 +20,7 @@
 export REPO=https://github.com/apache/commons-crypto
 
 if [ -z "$1" ]; then
-  export VERSION="commons-crypto-1.1.0"
+  export VERSION="rel/commons-crypto-1.1.0"
 else
   export VERSION="$1"
 fi
